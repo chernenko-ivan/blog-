@@ -1,0 +1,14 @@
+{
+    "ignore": [
+        "config/*",
+        "src/client/*",
+        "dist/*",
+        "data/*",
+        "node_modules"
+    ],
+    "watch": [
+        "src/server/**/*.ts"
+    ],
+    "exec": "npm run start:server:dev",
+    "ext": "ts-node"
+}
