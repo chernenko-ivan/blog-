@@ -2,8 +2,8 @@ import {Module} from '@nestjs/common';
 import {AppController} from './app.controller';
 import {ConfigModule} from "@nestjs/config";
 import {ArticleModule} from "./api/article/article.module";
-import { AuthModule } from './auth/auth.module';
-import { UserModule } from './user/user.module';
+import { AuthModule } from './api/auth/auth.module';
+import { UserModule } from './api/user/user.module';
 import * as path from "path";
 import {MongooseModule} from "@nestjs/mongoose";
 

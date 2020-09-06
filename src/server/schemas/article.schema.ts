@@ -2,7 +2,6 @@ import {Prop, Schema, SchemaFactory} from "@nestjs/mongoose";
 import {Document} from "mongoose";
 import {Article, ArticleType} from "../../common/articles.types";
 
-
 @Schema()
 export class ArticleModel extends Document implements Article{
     @Prop({required: true})

@@ -1,18 +1,15 @@
 import * as React from "react";
-import {Route, Switch} from "react-router-dom";
-
-import {Articles} from "../features/articles/Articles";
-import {Main} from "../features/articles/components/Main";
+import {Header} from "../components/header";
+import {Footer} from "../components/footer";
+import {Main} from "../components/main";
+import "./app.less";
 
 export const App = () => {
     return (
-        <Switch>
-            <Route path='/articles'>
-                <Articles/>
-            </Route>
-            <Route path='/'>
-                <Main/>
-            </Route>
-        </Switch>
+        <div className='app'>
+            <Header/>
+            <Main/>
+            <Footer/>
+        </div>
     )
 };

@@ -1,10 +1,12 @@
 import {combineReducers} from "@reduxjs/toolkit";
 
-import {articlesReducer} from "../features/articles/articles.slice";
-import {previewsReducer} from "../features/previews/prewies.slice";
+import {profileReducer} from "../features/profile";
+import {authControllerReducer} from "../features/authController";
+import {loginReducer} from "../features/login/login.slice";
 
 
 export const rootReducer = combineReducers({
-    articlesReducer,
-    previewsReducer
+    profileState: profileReducer,
+    authState: authControllerReducer,
+    loginState: loginReducer
 });

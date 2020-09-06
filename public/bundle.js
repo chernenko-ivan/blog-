@@ -218,6 +218,137 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./node_modules/classnames/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/classnames/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n  Copyright (c) 2017 Jed Watson.\n  Licensed under the MIT License (MIT), see\n  http://jedwatson.github.io/classnames\n*/\n/* global define */\n\n(function () {\n\t'use strict';\n\n\tvar hasOwn = {}.hasOwnProperty;\n\n\tfunction classNames () {\n\t\tvar classes = [];\n\n\t\tfor (var i = 0; i < arguments.length; i++) {\n\t\t\tvar arg = arguments[i];\n\t\t\tif (!arg) continue;\n\n\t\t\tvar argType = typeof arg;\n\n\t\t\tif (argType === 'string' || argType === 'number') {\n\t\t\t\tclasses.push(arg);\n\t\t\t} else if (Array.isArray(arg) && arg.length) {\n\t\t\t\tvar inner = classNames.apply(null, arg);\n\t\t\t\tif (inner) {\n\t\t\t\t\tclasses.push(inner);\n\t\t\t\t}\n\t\t\t} else if (argType === 'object') {\n\t\t\t\tfor (var key in arg) {\n\t\t\t\t\tif (hasOwn.call(arg, key) && arg[key]) {\n\t\t\t\t\t\tclasses.push(key);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\n\t\treturn classes.join(' ');\n\t}\n\n\tif ( true && module.exports) {\n\t\tclassNames.default = classNames;\n\t\tmodule.exports = classNames;\n\t} else if (true) {\n\t\t// register as 'classnames', consistent with npm package name\n\t\t!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function () {\n\t\t\treturn classNames;\n\t\t}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),\n\t\t\t\t__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));\n\t} else {}\n}());\n\n\n//# sourceURL=webpack:///./node_modules/classnames/index.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/app/app.less":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/app/app.less ***!
+  \************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"body {\\n  margin: 0;\\n}\\n.app {\\n  min-height: 100vh;\\n  height: 100%;\\n  width: 100%;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/app/app.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,SAAA;AACJ;AAEA;EACI,iBAAA;EACA,YAAA;EACA,WAAA;AAAJ\",\"sourcesContent\":[\"body {\\n    margin: 0;\\n}\\n\\n.app {\\n    min-height: 100vh;\\n    height: 100%;\\n    width: 100%;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/app/app.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/avatar/avatar.styles.less":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/avatar/avatar.styles.less ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \"\", \"\",{\"version\":3,\"sources\":[],\"names\":[],\"mappings\":\"\",\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/avatar/avatar.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/footer/footer.styles.less":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/footer/footer.styles.less ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".footer {\\n  background: cornflowerblue;\\n  height: 30px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/footer/footer.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,0BAAA;EACA,YAAA;AACJ\",\"sourcesContent\":[\".footer {\\n    background: cornflowerblue;\\n    height: 30px;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/footer/footer.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/header/header.styles.less":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/header/header.styles.less ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".header {\\n  width: 100%;\\n  height: 80px;\\n  padding: 0 40px;\\n  border-bottom: 1px solid rgba(0, 0, 0, 0.2);\\n}\\n.header__content {\\n  height: 100%;\\n  width: 1000px;\\n  margin: 0 auto;\\n  display: grid;\\n  grid-template-columns: repeat(5, 1fr);\\n  grid-template-areas: \\\"logo nav nav nav auth\\\";\\n  align-items: center;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/header/header.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,WAAA;EACA,YAAA;EACA,eAAA;EACA,2CAAA;AACJ;AACI;EACI,YAAA;EACA,aAAA;EACA,cAAA;EACA,aAAA;EACA,qCAAA;EACA,4CAAA;EACA,mBAAA;AACR\",\"sourcesContent\":[\".header {\\n    width: 100%;\\n    height: 80px;\\n    padding: 0 40px;\\n    border-bottom: 1px solid rgba(0, 0, 0, 0.2);\\n\\n    &__content {\\n        height: 100%;\\n        width: 1000px;\\n        margin: 0 auto;\\n        display: grid;\\n        grid-template-columns: repeat(5, 1fr);\\n        grid-template-areas: \\\"logo nav nav nav auth\\\";\\n        align-items: center;\\n    }\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/header/header.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/link/commonLink/commonLink.styles.less":
+/*!*************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/link/commonLink/commonLink.styles.less ***!
+  \*************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".link {\\n  font-size: 20px;\\n  color: black;\\n  text-decoration: none;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/link/commonLink/commonLink.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,eAAA;EACA,YAAA;EACA,qBAAA;AACJ\",\"sourcesContent\":[\".link {\\n    font-size: 20px;\\n    color: black;\\n    text-decoration: none;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/link/commonLink/commonLink.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/link/navigationLink/navigationLink.styles.less":
+/*!*********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/link/navigationLink/navigationLink.styles.less ***!
+  \*********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".navigationLink {\\n  padding: 8px 20px;\\n  display: flex;\\n  margin-right: 20px;\\n  align-items: center;\\n  justify-content: center;\\n  border-radius: 5px;\\n}\\n.navigationLink:hover {\\n  background: rgba(0, 0, 0, 0.2);\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/link/navigationLink/navigationLink.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,iBAAA;EACA,aAAA;EACA,kBAAA;EACA,mBAAA;EACA,uBAAA;EACA,kBAAA;AACJ;AACI;EACI,8BAAA;AACR\",\"sourcesContent\":[\".navigationLink {\\n    padding: 8px 20px;\\n    display: flex;\\n    margin-right: 20px;\\n    align-items: center;\\n    justify-content: center;\\n    border-radius: 5px;\\n\\n    &:hover {\\n        background: rgba(0, 0, 0, 0.2);\\n    }\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/link/navigationLink/navigationLink.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/logo/logo.styles.less":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/logo/logo.styles.less ***!
+  \********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".logo {\\n  grid-area: logo;\\n  font-size: 60px;\\n  font-weight: bolder;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/logo/logo.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,eAAA;EACA,eAAA;EACA,mBAAA;AACJ\",\"sourcesContent\":[\".logo {\\n    grid-area: logo;\\n    font-size: 60px;\\n    font-weight: bolder;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/logo/logo.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/main/main.styles.less":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/main/main.styles.less ***!
+  \********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".main {\\n  min-height: calc(100vh - 110px);\\n  max-width: 1000px;\\n  margin: 0 auto;\\n  display: grid;\\n  grid-auto-columns: 5fr 2fr;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/main/main.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,+BAAA;EACA,iBAAA;EACA,cAAA;EACA,aAAA;EACA,0BAAA;AACJ\",\"sourcesContent\":[\".main {\\n    min-height: calc(100vh - 110px);\\n    max-width: 1000px;\\n    margin: 0 auto;\\n    display: grid;\\n    grid-auto-columns: 5fr 2fr;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/main/main.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/navigation/navigation.styles.less":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2!./src/client/components/navigation/navigation.styles.less ***!
+  \********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);\n// Module\n___CSS_LOADER_EXPORT___.push([module.i, \".navigation {\\n  grid-area: nav;\\n  display: flex;\\n  height: 40px;\\n}\\n\", \"\",{\"version\":3,\"sources\":[\"webpack://src/client/components/navigation/navigation.styles.less\"],\"names\":[],\"mappings\":\"AAAA;EACI,cAAA;EACA,aAAA;EACA,YAAA;AACJ\",\"sourcesContent\":[\".navigation {\\n    grid-area: nav;\\n    display: flex;\\n    height: 40px;\\n}\"],\"sourceRoot\":\"\"}]);\n// Exports\n/* harmony default export */ __webpack_exports__[\"default\"] = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/client/components/navigation/navigation.styles.less?./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ref--5-2");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}\n\n//# sourceURL=webpack:///./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
 /***/ "./node_modules/history/esm/history.js":
 /*!*********************************************!*\
   !*** ./node_modules/history/esm/history.js ***!
@@ -839,6 +970,18 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function memorize() {\n    if (typeof memo === 'undefined') {\n      // Test for IE <= 9 as proposed by Browserhacks\n      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805\n      // Tests for existence of standard globals is to allow style-loader\n      // to operate correctly into non-standard environments\n      // @see https://github.com/webpack-contrib/style-loader/issues/177\n      memo = Boolean(window && document && document.all && !window.atob);\n    }\n\n    return memo;\n  };\n}();\n\nvar getTarget = function getTarget() {\n  var memo = {};\n  return function memorize(target) {\n    if (typeof memo[target] === 'undefined') {\n      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself\n\n      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {\n        try {\n          // This will throw an exception if access to iframe is blocked\n          // due to cross-origin restrictions\n          styleTarget = styleTarget.contentDocument.head;\n        } catch (e) {\n          // istanbul ignore next\n          styleTarget = null;\n        }\n      }\n\n      memo[target] = styleTarget;\n    }\n\n    return memo[target];\n  };\n}();\n\nvar stylesInDom = [];\n\nfunction getIndexByIdentifier(identifier) {\n  var result = -1;\n\n  for (var i = 0; i < stylesInDom.length; i++) {\n    if (stylesInDom[i].identifier === identifier) {\n      result = i;\n      break;\n    }\n  }\n\n  return result;\n}\n\nfunction modulesToDom(list, options) {\n  var idCountMap = {};\n  var identifiers = [];\n\n  for (var i = 0; i < list.length; i++) {\n    var item = list[i];\n    var id = options.base ? item[0] + options.base : item[0];\n    var count = idCountMap[id] || 0;\n    var identifier = \"\".concat(id, \" \").concat(count);\n    idCountMap[id] = count + 1;\n    var index = getIndexByIdentifier(identifier);\n    var obj = {\n      css: item[1],\n      media: item[2],\n      sourceMap: item[3]\n    };\n\n    if (index !== -1) {\n      stylesInDom[index].references++;\n      stylesInDom[index].updater(obj);\n    } else {\n      stylesInDom.push({\n        identifier: identifier,\n        updater: addStyle(obj, options),\n        references: 1\n      });\n    }\n\n    identifiers.push(identifier);\n  }\n\n  return identifiers;\n}\n\nfunction insertStyleElement(options) {\n  var style = document.createElement('style');\n  var attributes = options.attributes || {};\n\n  if (typeof attributes.nonce === 'undefined') {\n    var nonce =  true ? __webpack_require__.nc : undefined;\n\n    if (nonce) {\n      attributes.nonce = nonce;\n    }\n  }\n\n  Object.keys(attributes).forEach(function (key) {\n    style.setAttribute(key, attributes[key]);\n  });\n\n  if (typeof options.insert === 'function') {\n    options.insert(style);\n  } else {\n    var target = getTarget(options.insert || 'head');\n\n    if (!target) {\n      throw new Error(\"Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.\");\n    }\n\n    target.appendChild(style);\n  }\n\n  return style;\n}\n\nfunction removeStyleElement(style) {\n  // istanbul ignore if\n  if (style.parentNode === null) {\n    return false;\n  }\n\n  style.parentNode.removeChild(style);\n}\n/* istanbul ignore next  */\n\n\nvar replaceText = function replaceText() {\n  var textStore = [];\n  return function replace(index, replacement) {\n    textStore[index] = replacement;\n    return textStore.filter(Boolean).join('\\n');\n  };\n}();\n\nfunction applyToSingletonTag(style, index, remove, obj) {\n  var css = remove ? '' : obj.media ? \"@media \".concat(obj.media, \" {\").concat(obj.css, \"}\") : obj.css; // For old IE\n\n  /* istanbul ignore if  */\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = replaceText(index, css);\n  } else {\n    var cssNode = document.createTextNode(css);\n    var childNodes = style.childNodes;\n\n    if (childNodes[index]) {\n      style.removeChild(childNodes[index]);\n    }\n\n    if (childNodes.length) {\n      style.insertBefore(cssNode, childNodes[index]);\n    } else {\n      style.appendChild(cssNode);\n    }\n  }\n}\n\nfunction applyToTag(style, options, obj) {\n  var css = obj.css;\n  var media = obj.media;\n  var sourceMap = obj.sourceMap;\n\n  if (media) {\n    style.setAttribute('media', media);\n  } else {\n    style.removeAttribute('media');\n  }\n\n  if (sourceMap && btoa) {\n    css += \"\\n/*# sourceMappingURL=data:application/json;base64,\".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), \" */\");\n  } // For old IE\n\n  /* istanbul ignore if  */\n\n\n  if (style.styleSheet) {\n    style.styleSheet.cssText = css;\n  } else {\n    while (style.firstChild) {\n      style.removeChild(style.firstChild);\n    }\n\n    style.appendChild(document.createTextNode(css));\n  }\n}\n\nvar singleton = null;\nvar singletonCounter = 0;\n\nfunction addStyle(obj, options) {\n  var style;\n  var update;\n  var remove;\n\n  if (options.singleton) {\n    var styleIndex = singletonCounter++;\n    style = singleton || (singleton = insertStyleElement(options));\n    update = applyToSingletonTag.bind(null, style, styleIndex, false);\n    remove = applyToSingletonTag.bind(null, style, styleIndex, true);\n  } else {\n    style = insertStyleElement(options);\n    update = applyToTag.bind(null, style, options);\n\n    remove = function remove() {\n      removeStyleElement(style);\n    };\n  }\n\n  update(obj);\n  return function updateStyle(newObj) {\n    if (newObj) {\n      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {\n        return;\n      }\n\n      update(obj = newObj);\n    } else {\n      remove();\n    }\n  };\n}\n\nmodule.exports = function (list, options) {\n  options = options || {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>\n  // tags it will allow on a page\n\n  if (!options.singleton && typeof options.singleton !== 'boolean') {\n    options.singleton = isOldIE();\n  }\n\n  list = list || [];\n  var lastIdentifiers = modulesToDom(list, options);\n  return function update(newList) {\n    newList = newList || [];\n\n    if (Object.prototype.toString.call(newList) !== '[object Array]') {\n      return;\n    }\n\n    for (var i = 0; i < lastIdentifiers.length; i++) {\n      var identifier = lastIdentifiers[i];\n      var index = getIndexByIdentifier(identifier);\n      stylesInDom[index].references--;\n    }\n\n    var newLastIdentifiers = modulesToDom(newList, options);\n\n    for (var _i = 0; _i < lastIdentifiers.length; _i++) {\n      var _identifier = lastIdentifiers[_i];\n\n      var _index = getIndexByIdentifier(_identifier);\n\n      if (stylesInDom[_index].references === 0) {\n        stylesInDom[_index].updater();\n\n        stylesInDom.splice(_index, 1);\n      }\n    }\n\n    lastIdentifiers = newLastIdentifiers;\n  };\n};\n\n//# sourceURL=webpack:///./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js?");
+
+/***/ }),
+
 /***/ "./node_modules/symbol-observable/es/index.js":
 /*!****************************************************!*\
   !*** ./node_modules/symbol-observable/es/index.js ***!
@@ -921,15 +1064,15 @@ eval("module.exports = function(originalModule) {\n\tif (!originalModule.webpack
 
 /***/ }),
 
-/***/ "./src/client/api/articles.ts":
-/*!************************************!*\
-  !*** ./src/client/api/articles.ts ***!
-  \************************************/
+/***/ "./src/client/api/login.ts":
+/*!*********************************!*\
+  !*** ./src/client/api/login.ts ***!
+  \*********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.getArticles = void 0;\nexports.getArticles = () => {\n    return fetch('/api/articles/list')\n        .then(res => res.json());\n};\n\n\n//# sourceURL=webpack:///./src/client/api/articles.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.createProfile = exports.login = void 0;\nexports.login = (resp) => {\n    return fetch('/api/auth/login', {\n        body: JSON.stringify(resp),\n        method: \"POST\",\n        headers: {\n            \"Content-Type\": \"application/json\"\n        }\n    })\n        .then(res => res.json());\n};\nexports.createProfile = (resp) => {\n    return fetch('/api/auth/create-profile', {\n        body: JSON.stringify(resp),\n        method: \"POST\",\n        headers: {\n            \"Content-Type\": \"application/json\"\n        }\n    })\n        .then(res => res.json());\n};\n\n\n//# sourceURL=webpack:///./src/client/api/login.ts?");
 
 /***/ }),
 
@@ -941,7 +1084,18 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.App = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nconst Articles_1 = __webpack_require__(/*! ../features/articles/components/Articles */ \"./src/client/features/articles/components/Articles.tsx\");\nconst Main_1 = __webpack_require__(/*! ../features/articles/components/Main */ \"./src/client/features/articles/components/Main.tsx\");\nexports.App = () => {\n    return (React.createElement(react_router_dom_1.Switch, null,\n        React.createElement(react_router_dom_1.Route, { path: '/articles' },\n            React.createElement(Articles_1.Articles, null)),\n        React.createElement(react_router_dom_1.Route, { path: '/' },\n            React.createElement(Main_1.Main, null))));\n};\n\n\n//# sourceURL=webpack:///./src/client/app/App.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.App = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst header_1 = __webpack_require__(/*! ../components/header */ \"./src/client/components/header/index.ts\");\nconst footer_1 = __webpack_require__(/*! ../components/footer */ \"./src/client/components/footer/index.ts\");\nconst main_1 = __webpack_require__(/*! ../components/main */ \"./src/client/components/main/index.ts\");\n__webpack_require__(/*! ./app.less */ \"./src/client/app/app.less\");\nexports.App = () => {\n    return (React.createElement(\"div\", { className: 'app' },\n        React.createElement(header_1.Header, null),\n        React.createElement(main_1.Main, null),\n        React.createElement(footer_1.Footer, null)));\n};\n\n\n//# sourceURL=webpack:///./src/client/app/App.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/app/app.less":
+/*!*********************************!*\
+  !*** ./src/client/app/app.less ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./app.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/app/app.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/app/app.less?");
 
 /***/ }),
 
@@ -953,7 +1107,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.rootReducer = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst articlesSlice_1 = __webpack_require__(/*! ../features/articles/articlesSlice */ \"./src/client/features/articles/articlesSlice.ts\");\nexports.rootReducer = toolkit_1.combineReducers({\n    articlesReducer: articlesSlice_1.articlesReducer\n});\n\n\n//# sourceURL=webpack:///./src/client/app/rootReducer.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.rootReducer = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst profile_1 = __webpack_require__(/*! ../features/profile */ \"./src/client/features/profile/index.ts\");\nconst authController_1 = __webpack_require__(/*! ../features/authController */ \"./src/client/features/authController/index.ts\");\nconst login_slice_1 = __webpack_require__(/*! ../features/login/login.slice */ \"./src/client/features/login/login.slice.ts\");\nexports.rootReducer = toolkit_1.combineReducers({\n    profileState: profile_1.profileReducer,\n    authState: authController_1.authControllerReducer,\n    loginState: login_slice_1.loginReducer\n});\n\n\n//# sourceURL=webpack:///./src/client/app/rootReducer.ts?");
 
 /***/ }),
 
@@ -965,67 +1119,479 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexport
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.store = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst redux_saga_1 = __webpack_require__(/*! redux-saga */ \"./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js\");\nconst sagas_1 = __webpack_require__(/*! ../features/articles/sagas */ \"./src/client/features/articles/sagas.ts\");\nconst rootReducer_1 = __webpack_require__(/*! ./rootReducer */ \"./src/client/app/rootReducer.ts\");\nconst sagaMiddleware = redux_saga_1.default();\nexports.store = toolkit_1.configureStore({\n    reducer: rootReducer_1.rootReducer,\n    middleware: [sagaMiddleware],\n});\nif (false) {}\nsagaMiddleware.run(sagas_1.articlesSaga);\n\n\n//# sourceURL=webpack:///./src/client/app/store.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.store = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst redux_saga_1 = __webpack_require__(/*! redux-saga */ \"./node_modules/redux-saga/dist/redux-saga-core-npm-proxy.esm.js\");\nconst effects_1 = __webpack_require__(/*! redux-saga/effects */ \"./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js\");\nconst rootReducer_1 = __webpack_require__(/*! ./rootReducer */ \"./src/client/app/rootReducer.ts\");\nconst login_saga_1 = __webpack_require__(/*! ../features/login/login.saga */ \"./src/client/features/login/login.saga.ts\");\nconst sagaMiddleware = redux_saga_1.default();\nfunction* rootSaga() {\n    yield effects_1.all([\n        login_saga_1.loginSaga()\n    ]);\n}\nexports.store = toolkit_1.configureStore({\n    reducer: rootReducer_1.rootReducer,\n    middleware: [sagaMiddleware],\n});\nif (false) {}\nsagaMiddleware.run(rootSaga);\n\n\n//# sourceURL=webpack:///./src/client/app/store.ts?");
 
 /***/ }),
 
-/***/ "./src/client/features/articles/articlesSlice.ts":
+/***/ "./src/client/components/avatar/Avatar.tsx":
+/*!*************************************************!*\
+  !*** ./src/client/components/avatar/Avatar.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Avatar = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./avatar.styles.less */ \"./src/client/components/avatar/avatar.styles.less\");\nexports.Avatar = (props) => {\n    return (React.createElement(\"div\", null,\n        React.createElement(\"div\", null,\n            React.createElement(\"img\", { src: props.avatar, alt: \"avatar\" })),\n        React.createElement(\"div\", null,\n            React.createElement(\"div\", null, props.email),\n            React.createElement(\"div\", null, props.userName))));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/avatar/Avatar.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/avatar/avatar.styles.less":
+/*!*********************************************************!*\
+  !*** ./src/client/components/avatar/avatar.styles.less ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./avatar.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/avatar/avatar.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/avatar/avatar.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/content/Content.tsx":
+/*!***************************************************!*\
+  !*** ./src/client/components/content/Content.tsx ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Content = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.Content = () => {\n    return (React.createElement(\"div\", null));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/content/Content.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/content/MainContent.tsx":
 /*!*******************************************************!*\
-  !*** ./src/client/features/articles/articlesSlice.ts ***!
+  !*** ./src/client/components/content/MainContent.tsx ***!
   \*******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.articlesReducer = exports.articlesFetchSuccess = exports.fetchArticles = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst initialState = {\n    articles: [],\n    loading: false\n};\nconst articlesSlice = toolkit_1.createSlice({\n    name: 'articles',\n    initialState: initialState,\n    reducers: {\n        fetchArticles: (state) => {\n            state.loading = true;\n        },\n        articlesFetchSuccess: (state, action) => {\n            state.articles.push(...action.payload);\n            state.loading = true;\n        }\n    }\n});\nconst { actions, reducer } = articlesSlice;\nexports.fetchArticles = actions.fetchArticles, exports.articlesFetchSuccess = actions.articlesFetchSuccess;\nexports.articlesReducer = reducer;\n\n\n//# sourceURL=webpack:///./src/client/features/articles/articlesSlice.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.MainContent = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.MainContent = () => {\n    return (React.createElement(\"div\", null));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/content/MainContent.tsx?");
 
 /***/ }),
 
-/***/ "./src/client/features/articles/components/Article.tsx":
-/*!*************************************************************!*\
-  !*** ./src/client/features/articles/components/Article.tsx ***!
-  \*************************************************************/
+/***/ "./src/client/components/content/SubContent.tsx":
+/*!******************************************************!*\
+  !*** ./src/client/components/content/SubContent.tsx ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ArticlePlate = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.ArticlePlate = props => {\n    return React.createElement(\"div\", null, props.article.text);\n};\n\n\n//# sourceURL=webpack:///./src/client/features/articles/components/Article.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SubContent = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.SubContent = () => {\n    return (React.createElement(\"div\", null));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/content/SubContent.tsx?");
 
 /***/ }),
 
-/***/ "./src/client/features/articles/components/Articles.tsx":
-/*!**************************************************************!*\
-  !*** ./src/client/features/articles/components/Articles.tsx ***!
-  \**************************************************************/
+/***/ "./src/client/components/content/index.ts":
+/*!************************************************!*\
+  !*** ./src/client/components/content/index.ts ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Articles = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\nconst Article_1 = __webpack_require__(/*! ./Article */ \"./src/client/features/articles/components/Article.tsx\");\nconst articlesSlice_1 = __webpack_require__(/*! ../articlesSlice */ \"./src/client/features/articles/articlesSlice.ts\");\nexports.Articles = () => {\n    const dispatch = react_redux_1.useDispatch();\n    const articles = react_redux_1.useSelector(state => {\n        return state.articlesReducer.articles;\n    });\n    react_1.useEffect(() => {\n        dispatch(articlesSlice_1.fetchArticles());\n    }, []);\n    return (React.createElement(\"div\", null, articles.map(article => React.createElement(Article_1.ArticlePlate, { key: article._id, article: article }))));\n};\n\n\n//# sourceURL=webpack:///./src/client/features/articles/components/Articles.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Content_1 = __webpack_require__(/*! ./Content */ \"./src/client/components/content/Content.tsx\");\nObject.defineProperty(exports, \"Content\", { enumerable: true, get: function () { return Content_1.Content; } });\nvar MainContent_1 = __webpack_require__(/*! ./MainContent */ \"./src/client/components/content/MainContent.tsx\");\nObject.defineProperty(exports, \"MainContent\", { enumerable: true, get: function () { return MainContent_1.MainContent; } });\nvar SubContent_1 = __webpack_require__(/*! ./SubContent */ \"./src/client/components/content/SubContent.tsx\");\nObject.defineProperty(exports, \"SubContent\", { enumerable: true, get: function () { return SubContent_1.SubContent; } });\n\n\n//# sourceURL=webpack:///./src/client/components/content/index.ts?");
 
 /***/ }),
 
-/***/ "./src/client/features/articles/components/Main.tsx":
-/*!**********************************************************!*\
-  !*** ./src/client/features/articles/components/Main.tsx ***!
-  \**********************************************************/
+/***/ "./src/client/components/footer/Footer.tsx":
+/*!*************************************************!*\
+  !*** ./src/client/components/footer/Footer.tsx ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Main = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.Main = () => {\n    return (React.createElement(\"div\", null, \"Main\"));\n};\n\n\n//# sourceURL=webpack:///./src/client/features/articles/components/Main.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Footer = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./footer.styles.less */ \"./src/client/components/footer/footer.styles.less\");\nexports.Footer = () => {\n    return (React.createElement(\"div\", { className: 'footer' }));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/footer/Footer.tsx?");
 
 /***/ }),
 
-/***/ "./src/client/features/articles/sagas.ts":
+/***/ "./src/client/components/footer/footer.styles.less":
+/*!*********************************************************!*\
+  !*** ./src/client/components/footer/footer.styles.less ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./footer.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/footer/footer.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/footer/footer.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/footer/index.ts":
 /*!***********************************************!*\
-  !*** ./src/client/features/articles/sagas.ts ***!
+  !*** ./src/client/components/footer/index.ts ***!
   \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.articlesSaga = void 0;\nconst effects_1 = __webpack_require__(/*! redux-saga/effects */ \"./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js\");\nconst articles_1 = __webpack_require__(/*! ../../api/articles */ \"./src/client/api/articles.ts\");\nconst articlesSlice_1 = __webpack_require__(/*! ./articlesSlice */ \"./src/client/features/articles/articlesSlice.ts\");\nfunction* fetchArticles() {\n    const res = yield effects_1.call(articles_1.getArticles);\n    yield effects_1.put(articlesSlice_1.articlesFetchSuccess(res.data.articles));\n}\nfunction* articleFetchWatch() {\n    yield effects_1.takeEvery(articlesSlice_1.fetchArticles.type, fetchArticles);\n}\nfunction* articlesSaga() {\n    yield effects_1.all([\n        articleFetchWatch()\n    ]);\n}\nexports.articlesSaga = articlesSaga;\n\n\n//# sourceURL=webpack:///./src/client/features/articles/sagas.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Footer_1 = __webpack_require__(/*! ./Footer */ \"./src/client/components/footer/Footer.tsx\");\nObject.defineProperty(exports, \"Footer\", { enumerable: true, get: function () { return Footer_1.Footer; } });\n\n\n//# sourceURL=webpack:///./src/client/components/footer/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/header/Header.tsx":
+/*!*************************************************!*\
+  !*** ./src/client/components/header/Header.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Header = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./header.styles.less */ \"./src/client/components/header/header.styles.less\");\nconst logo_1 = __webpack_require__(/*! ../logo */ \"./src/client/components/logo/index.ts\");\nconst navigation_1 = __webpack_require__(/*! ../navigation */ \"./src/client/components/navigation/index.ts\");\nconst authController_1 = __webpack_require__(/*! ../../features/authController */ \"./src/client/features/authController/index.ts\");\nexports.Header = () => {\n    return (React.createElement(\"div\", { className: 'header' },\n        React.createElement(\"div\", { className: 'header__content' },\n            React.createElement(logo_1.Logo, null),\n            React.createElement(navigation_1.Navigation, null),\n            React.createElement(authController_1.AuthController, null))));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/header/Header.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/header/header.styles.less":
+/*!*********************************************************!*\
+  !*** ./src/client/components/header/header.styles.less ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./header.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/header/header.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/header/header.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/header/index.ts":
+/*!***********************************************!*\
+  !*** ./src/client/components/header/index.ts ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Header_1 = __webpack_require__(/*! ./Header */ \"./src/client/components/header/Header.tsx\");\nObject.defineProperty(exports, \"Header\", { enumerable: true, get: function () { return Header_1.Header; } });\n\n\n//# sourceURL=webpack:///./src/client/components/header/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/link/commonLink/CommonLink.tsx":
+/*!**************************************************************!*\
+  !*** ./src/client/components/link/commonLink/CommonLink.tsx ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.CommonLink = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nconst cn = __webpack_require__(/*! classnames */ \"./node_modules/classnames/index.js\");\n__webpack_require__(/*! ./commonLink.styles.less */ \"./src/client/components/link/commonLink/commonLink.styles.less\");\nexports.CommonLink = props => {\n    return (React.createElement(react_router_dom_1.Link, { className: cn('link', props.className), to: props.url }, props.name));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/link/commonLink/CommonLink.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/link/commonLink/commonLink.styles.less":
+/*!**********************************************************************!*\
+  !*** ./src/client/components/link/commonLink/commonLink.styles.less ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./commonLink.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/link/commonLink/commonLink.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/link/commonLink/commonLink.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/link/index.ts":
+/*!*********************************************!*\
+  !*** ./src/client/components/link/index.ts ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar NavigationLink_1 = __webpack_require__(/*! ./navigationLink/NavigationLink */ \"./src/client/components/link/navigationLink/NavigationLink.tsx\");\nObject.defineProperty(exports, \"NavigationLink\", { enumerable: true, get: function () { return NavigationLink_1.NavigationLink; } });\nvar CommonLink_1 = __webpack_require__(/*! ./commonLink/CommonLink */ \"./src/client/components/link/commonLink/CommonLink.tsx\");\nObject.defineProperty(exports, \"CommonLink\", { enumerable: true, get: function () { return CommonLink_1.CommonLink; } });\n\n\n//# sourceURL=webpack:///./src/client/components/link/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/link/navigationLink/NavigationLink.tsx":
+/*!**********************************************************************!*\
+  !*** ./src/client/components/link/navigationLink/NavigationLink.tsx ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.NavigationLink = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./navigationLink.styles.less */ \"./src/client/components/link/navigationLink/navigationLink.styles.less\");\nconst __1 = __webpack_require__(/*! .. */ \"./src/client/components/link/index.ts\");\nexports.NavigationLink = props => {\n    return React.createElement(\"div\", { className: 'navigationLink' },\n        React.createElement(__1.CommonLink, { name: props.name, url: props.url }));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/link/navigationLink/NavigationLink.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/link/navigationLink/navigationLink.styles.less":
+/*!******************************************************************************!*\
+  !*** ./src/client/components/link/navigationLink/navigationLink.styles.less ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../../node_modules/css-loader/dist/cjs.js!../../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./navigationLink.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/link/navigationLink/navigationLink.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/link/navigationLink/navigationLink.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/loader/Loader.tsx":
+/*!*************************************************!*\
+  !*** ./src/client/components/loader/Loader.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Loader = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst black_loader_svg_1 = __webpack_require__(/*! ../../imgs/loaders/black-loader.svg */ \"./src/client/imgs/loaders/black-loader.svg\");\nexports.Loader = () => {\n    return React.createElement(\"div\", null,\n        React.createElement(\"img\", { src: black_loader_svg_1.default, alt: \"Loader\" }));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/loader/Loader.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/loader/index.ts":
+/*!***********************************************!*\
+  !*** ./src/client/components/loader/index.ts ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Loader_1 = __webpack_require__(/*! ./Loader */ \"./src/client/components/loader/Loader.tsx\");\nObject.defineProperty(exports, \"Loader\", { enumerable: true, get: function () { return Loader_1.Loader; } });\n\n\n//# sourceURL=webpack:///./src/client/components/loader/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/logo/Logo.tsx":
+/*!*********************************************!*\
+  !*** ./src/client/components/logo/Logo.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Logo = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n__webpack_require__(/*! ./logo.styles.less */ \"./src/client/components/logo/logo.styles.less\");\nexports.Logo = () => {\n    return React.createElement(\"div\", { className: 'logo' }, \"Blog-\");\n};\n\n\n//# sourceURL=webpack:///./src/client/components/logo/Logo.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/logo/index.ts":
+/*!*********************************************!*\
+  !*** ./src/client/components/logo/index.ts ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Logo_1 = __webpack_require__(/*! ./Logo */ \"./src/client/components/logo/Logo.tsx\");\nObject.defineProperty(exports, \"Logo\", { enumerable: true, get: function () { return Logo_1.Logo; } });\n\n\n//# sourceURL=webpack:///./src/client/components/logo/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/logo/logo.styles.less":
+/*!*****************************************************!*\
+  !*** ./src/client/components/logo/logo.styles.less ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./logo.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/logo/logo.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/logo/logo.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/main/Main.tsx":
+/*!*********************************************!*\
+  !*** ./src/client/components/main/Main.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Main = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_router_dom_1 = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\nconst profile_1 = __webpack_require__(/*! ../../features/profile */ \"./src/client/features/profile/index.ts\");\n__webpack_require__(/*! ./main.styles.less */ \"./src/client/components/main/main.styles.less\");\nconst login_1 = __webpack_require__(/*! ../../features/login */ \"./src/client/features/login/index.ts\");\nexports.Main = () => {\n    return (React.createElement(\"div\", { className: 'main' },\n        React.createElement(react_router_dom_1.Switch, null,\n            React.createElement(react_router_dom_1.Route, { path: '/profile' },\n                React.createElement(profile_1.Profile, null)),\n            React.createElement(react_router_dom_1.Route, { path: '/login' },\n                React.createElement(login_1.Login, null)))));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/main/Main.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/main/index.ts":
+/*!*********************************************!*\
+  !*** ./src/client/components/main/index.ts ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Main_1 = __webpack_require__(/*! ./Main */ \"./src/client/components/main/Main.tsx\");\nObject.defineProperty(exports, \"Main\", { enumerable: true, get: function () { return Main_1.Main; } });\n\n\n//# sourceURL=webpack:///./src/client/components/main/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/main/main.styles.less":
+/*!*****************************************************!*\
+  !*** ./src/client/components/main/main.styles.less ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./main.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/main/main.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/main/main.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/components/navigation/Navigation.tsx":
+/*!*********************************************************!*\
+  !*** ./src/client/components/navigation/Navigation.tsx ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Navigation = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst link_1 = __webpack_require__(/*! ../link */ \"./src/client/components/link/index.ts\");\n__webpack_require__(/*! ./navigation.styles.less */ \"./src/client/components/navigation/navigation.styles.less\");\nconst LINKS = [\n    {\n        name: 'Profile',\n        url: '/profile',\n    },\n    {\n        name: 'Articles',\n        url: '/articles'\n    },\n    {\n        name: 'Authors',\n        url: '/authors'\n    }\n];\nexports.Navigation = () => {\n    return React.createElement(\"div\", { className: 'navigation' }, LINKS.map(link => React.createElement(link_1.NavigationLink, { key: link.name, name: link.name, url: link.url })));\n};\n\n\n//# sourceURL=webpack:///./src/client/components/navigation/Navigation.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/components/navigation/index.ts":
+/*!***************************************************!*\
+  !*** ./src/client/components/navigation/index.ts ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Navigation_1 = __webpack_require__(/*! ./Navigation */ \"./src/client/components/navigation/Navigation.tsx\");\nObject.defineProperty(exports, \"Navigation\", { enumerable: true, get: function () { return Navigation_1.Navigation; } });\n\n\n//# sourceURL=webpack:///./src/client/components/navigation/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/components/navigation/navigation.styles.less":
+/*!*****************************************************************!*\
+  !*** ./src/client/components/navigation/navigation.styles.less ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var api = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../../../node_modules/css-loader/dist/cjs.js!../../../../node_modules/less-loader/dist/cjs.js??ref--5-2!./navigation.styles.less */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js?!./src/client/components/navigation/navigation.styles.less\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/client/components/navigation/navigation.styles.less?");
+
+/***/ }),
+
+/***/ "./src/client/features/authController/AuthController.tsx":
+/*!***************************************************************!*\
+  !*** ./src/client/features/authController/AuthController.tsx ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.AuthController = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\nconst link_1 = __webpack_require__(/*! ../../components/link */ \"./src/client/components/link/index.ts\");\nexports.AuthController = () => {\n    const dispatch = react_redux_1.useDispatch();\n    const { loading, isAuthenticated, email, username, avatar } = react_redux_1.useSelector(state => ({\n        isAuthenticated: state.authState.isAuthenticated,\n        loading: state.authState.loading,\n        email: state.authState.email,\n        username: state.authState.username,\n        avatar: state.authState.avatar,\n    }));\n    return React.createElement(\"div\", null, !isAuthenticated\n        ? React.createElement(link_1.CommonLink, { url: '/login', name: 'Sign up or login' })\n        : React.createElement(\"div\", null, \"logined\"));\n};\n\n\n//# sourceURL=webpack:///./src/client/features/authController/AuthController.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/features/authController/authController.slice.ts":
+/*!********************************************************************!*\
+  !*** ./src/client/features/authController/authController.slice.ts ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar _a;\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.authControllerReducer = exports.fetchAuthControllerSuccess = exports.fetchAuthController = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst initialState = {\n    isAuthenticated: false,\n    loading: false,\n};\nconst authControllerSlice = toolkit_1.createSlice({\n    name: 'authController',\n    initialState: initialState,\n    reducers: {\n        fetchAuthController: (state) => {\n            state.loading = true;\n        },\n        fetchAuthControllerSuccess: (state, action) => {\n            state.isAuthenticated = action.payload.isAuthenticated;\n            state.email = action.payload.email;\n            state.username = action.payload.username;\n            state.avatar = action.payload.avatar;\n            state.loading = false;\n        }\n    }\n});\n_a = authControllerSlice.actions, exports.fetchAuthController = _a.fetchAuthController, exports.fetchAuthControllerSuccess = _a.fetchAuthControllerSuccess;\nexports.authControllerReducer = authControllerSlice.reducer;\n\n\n//# sourceURL=webpack:///./src/client/features/authController/authController.slice.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/authController/index.ts":
+/*!*****************************************************!*\
+  !*** ./src/client/features/authController/index.ts ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar AuthController_1 = __webpack_require__(/*! ./AuthController */ \"./src/client/features/authController/AuthController.tsx\");\nObject.defineProperty(exports, \"AuthController\", { enumerable: true, get: function () { return AuthController_1.AuthController; } });\nvar authController_slice_1 = __webpack_require__(/*! ./authController.slice */ \"./src/client/features/authController/authController.slice.ts\");\nObject.defineProperty(exports, \"authControllerReducer\", { enumerable: true, get: function () { return authController_slice_1.authControllerReducer; } });\n\n\n//# sourceURL=webpack:///./src/client/features/authController/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/login/Login.tsx":
+/*!*********************************************!*\
+  !*** ./src/client/features/login/Login.tsx ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Login = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\nconst login_slice_1 = __webpack_require__(/*! ./login.slice */ \"./src/client/features/login/login.slice.ts\");\nconst login_slice_2 = __webpack_require__(/*! ./login.slice */ \"./src/client/features/login/login.slice.ts\");\nexports.Login = () => {\n    const dispatch = react_redux_1.useDispatch();\n    const { username, email, password } = react_redux_1.useSelector(state => (Object.assign({}, state.loginState)));\n    return (React.createElement(\"div\", null,\n        React.createElement(\"input\", { onChange: e => dispatch(login_slice_2.changeUsername(e.target.value)), value: username }),\n        React.createElement(\"input\", { onChange: e => dispatch(login_slice_2.changeEmail(e.target.value)), value: email }),\n        React.createElement(\"input\", { onChange: e => dispatch(login_slice_2.changePassword(e.target.value)), type: \"password\", value: password }),\n        React.createElement(\"button\", { onClick: () => dispatch(login_slice_1.sendLoginRequest({\n                email,\n                password,\n                username,\n            })) }, \"login\"),\n        React.createElement(\"button\", { onClick: () => dispatch(login_slice_2.sendCreateProfileRequest({\n                email,\n                password,\n                username,\n            })) }, \"createAccount\")));\n};\n\n\n//# sourceURL=webpack:///./src/client/features/login/Login.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/features/login/index.ts":
+/*!********************************************!*\
+  !*** ./src/client/features/login/index.ts ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Login_1 = __webpack_require__(/*! ./Login */ \"./src/client/features/login/Login.tsx\");\nObject.defineProperty(exports, \"Login\", { enumerable: true, get: function () { return Login_1.Login; } });\n\n\n//# sourceURL=webpack:///./src/client/features/login/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/login/login.saga.ts":
+/*!*************************************************!*\
+  !*** ./src/client/features/login/login.saga.ts ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.loginSaga = void 0;\nconst effects_1 = __webpack_require__(/*! redux-saga/effects */ \"./node_modules/redux-saga/dist/redux-saga-effects-npm-proxy.esm.js\");\nconst login_slice_1 = __webpack_require__(/*! ./login.slice */ \"./src/client/features/login/login.slice.ts\");\nconst login_1 = __webpack_require__(/*! ../../api/login */ \"./src/client/api/login.ts\");\nfunction* loginRequestSaga(action) {\n    const res = yield effects_1.call(login_1.login, action.payload);\n    yield effects_1.put(login_slice_1.sendLoginRequestSuccess(res.data.token));\n}\nfunction* loginRequestWatcher() {\n    yield effects_1.takeEvery(login_slice_1.sendLoginRequest.type, loginRequestSaga);\n}\nfunction* createProfileRequestSaga(action) {\n    const res = yield effects_1.call(login_1.createProfile, action.payload);\n    yield effects_1.put(login_slice_1.sendCreateProfileRequestSuccess(res.data.token));\n}\nfunction* createProfileRequestWatcher() {\n    yield effects_1.takeEvery(login_slice_1.sendCreateProfileRequest.type, createProfileRequestSaga);\n}\nfunction* loginSaga() {\n    yield effects_1.all([\n        loginRequestWatcher(),\n        createProfileRequestWatcher()\n    ]);\n}\nexports.loginSaga = loginSaga;\n\n\n//# sourceURL=webpack:///./src/client/features/login/login.saga.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/login/login.slice.ts":
+/*!**************************************************!*\
+  !*** ./src/client/features/login/login.slice.ts ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar _a;\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.sendLoginRequest = exports.sendCreateProfileRequest = exports.sendCreateProfileRequestSuccess = exports.sendLoginRequestSuccess = exports.changeUsername = exports.changePassword = exports.changeEmail = exports.loginReducer = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst initialState = {\n    username: '',\n    password: '',\n    email: '',\n    loading: false\n};\nconst loginSlice = toolkit_1.createSlice({\n    name: 'login',\n    initialState,\n    reducers: {\n        changeUsername: (state, action) => {\n            state.username = action.payload;\n        },\n        changeEmail: (state, action) => {\n            state.email = action.payload;\n        },\n        changePassword: (state, action) => {\n            state.password = action.payload;\n        },\n        sendLoginRequest: (state, _) => {\n            state.loading = true;\n        },\n        sendCreateProfileRequest: (state, _) => {\n            state.loading = true;\n        },\n        sendLoginRequestSuccess: (state, action) => {\n            state.loading = false;\n            if (action.payload) {\n                window.location.assign('/profile');\n            }\n        },\n        sendCreateProfileRequestSuccess: (state, action) => {\n            state.loading = false;\n            if (action.payload) {\n                window.location.assign('/profile');\n            }\n        },\n    }\n});\nexports.loginReducer = loginSlice.reducer;\n_a = loginSlice.actions, exports.changeEmail = _a.changeEmail, exports.changePassword = _a.changePassword, exports.changeUsername = _a.changeUsername, exports.sendLoginRequestSuccess = _a.sendLoginRequestSuccess, exports.sendCreateProfileRequestSuccess = _a.sendCreateProfileRequestSuccess, exports.sendCreateProfileRequest = _a.sendCreateProfileRequest, exports.sendLoginRequest = _a.sendLoginRequest;\n\n\n//# sourceURL=webpack:///./src/client/features/login/login.slice.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/profile/Profile.tsx":
+/*!*************************************************!*\
+  !*** ./src/client/features/profile/Profile.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.Profile = void 0;\nconst React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_1 = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst react_redux_1 = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\nconst content_1 = __webpack_require__(/*! ../../components/content */ \"./src/client/components/content/index.ts\");\nconst Avatar_1 = __webpack_require__(/*! ../../components/avatar/Avatar */ \"./src/client/components/avatar/Avatar.tsx\");\nconst profile_slice_1 = __webpack_require__(/*! ./profile.slice */ \"./src/client/features/profile/profile.slice.ts\");\nconst loader_1 = __webpack_require__(/*! ../../components/loader */ \"./src/client/components/loader/index.ts\");\nexports.Profile = () => {\n    const dispatch = react_redux_1.useDispatch();\n    const { profile, loading } = react_redux_1.useSelector((state) => ({\n        profile: state.profileState.profile,\n        loading: state.profileState.loading,\n    }));\n    react_1.useEffect(() => {\n        dispatch(profile_slice_1.fetchProfile());\n    }, []);\n    return React.createElement(React.Fragment, null, !profile\n        ? React.createElement(\"div\", null,\n            React.createElement(loader_1.Loader, null))\n        : React.createElement(React.Fragment, null,\n            React.createElement(content_1.MainContent, null,\n                React.createElement(Avatar_1.Avatar, { email: profile.email, userName: profile.username, avatar: profile.avatar, onClick: () => {\n                    } })),\n            React.createElement(content_1.SubContent, null)));\n};\n\n\n//# sourceURL=webpack:///./src/client/features/profile/Profile.tsx?");
+
+/***/ }),
+
+/***/ "./src/client/features/profile/index.ts":
+/*!**********************************************!*\
+  !*** ./src/client/features/profile/index.ts ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Profile_1 = __webpack_require__(/*! ./Profile */ \"./src/client/features/profile/Profile.tsx\");\nObject.defineProperty(exports, \"Profile\", { enumerable: true, get: function () { return Profile_1.Profile; } });\nvar profile_slice_1 = __webpack_require__(/*! ./profile.slice */ \"./src/client/features/profile/profile.slice.ts\");\nObject.defineProperty(exports, \"profileReducer\", { enumerable: true, get: function () { return profile_slice_1.profileReducer; } });\nvar proflile_saga_1 = __webpack_require__(/*! ./proflile.saga */ \"./src/client/features/profile/proflile.saga.ts\");\nObject.defineProperty(exports, \"profileSaga\", { enumerable: true, get: function () { return proflile_saga_1.profileSaga; } });\n\n\n//# sourceURL=webpack:///./src/client/features/profile/index.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/profile/profile.slice.ts":
+/*!******************************************************!*\
+  !*** ./src/client/features/profile/profile.slice.ts ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nvar _a;\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.profileReducer = exports.fetchProfileSuccess = exports.fetchProfile = void 0;\nconst toolkit_1 = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.esm.js\");\nconst initialState = {\n    loading: false\n};\nconst profileSlice = toolkit_1.createSlice({\n    name: 'profile',\n    initialState: initialState,\n    reducers: {\n        fetchProfile: (state) => {\n            state.loading = true;\n        },\n        fetchProfileSuccess: (state, action) => {\n            state.profile = action.payload;\n            state.loading = false;\n        },\n    }\n});\n_a = profileSlice.actions, exports.fetchProfile = _a.fetchProfile, exports.fetchProfileSuccess = _a.fetchProfileSuccess;\nexports.profileReducer = profileSlice.reducer;\n\n\n//# sourceURL=webpack:///./src/client/features/profile/profile.slice.ts?");
+
+/***/ }),
+
+/***/ "./src/client/features/profile/proflile.saga.ts":
+/*!******************************************************!*\
+  !*** ./src/client/features/profile/proflile.saga.ts ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.profileSaga = void 0;\nfunction* profileSaga() {\n}\nexports.profileSaga = profileSaga;\n\n\n//# sourceURL=webpack:///./src/client/features/profile/proflile.saga.ts?");
+
+/***/ }),
+
+/***/ "./src/client/imgs/loaders/black-loader.svg":
+/*!**************************************************!*\
+  !*** ./src/client/imgs/loaders/black-loader.svg ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIyMDBweCIgaGVpZ2h0PSIyMDBweCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIiBzdHlsZT0ibWFyZ2luLXJpZ2h0Oi0ycHg7ZGlzcGxheTpibG9jaztiYWNrZ3JvdW5kLXJlcGVhdC15OmluaXRpYWw7YmFja2dyb3VuZC1yZXBlYXQteDppbml0aWFsO2JhY2tncm91bmQtY29sb3I6cmdiKDI1NSwgMjU1LCAyNTUpO2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjxnIHRyYW5zZm9ybT0icm90YXRlKDAgNTAgNTApIiBzdHlsZT0idHJhbnNmb3JtOm1hdHJpeCgxLCAwLCAwLCAxLCAwLCAwKTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIwLjA4MzMzNCIgc3R5bGU9Im9wYWNpdHk6MC4wODMzMzQ7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMzAgNTAgNTApIiBzdHlsZT0idHJhbnNmb3JtOm1hdHJpeCgwLjg2NjAyNSwgMC41LCAtMC41LCAwLjg2NjAyNSwgMzEuNjk4NywgLTE4LjMwMTMpO2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjxyZWN0IHg9IjQ3LjUiIHk9IjE5IiByeD0iMi41IiByeT0iMi42NiIgd2lkdGg9IjUiIGhlaWdodD0iMTQiIGZpbGw9IiMwMDAwMDAiIG9wYWNpdHk9IjAuMTY2NjY3IiBzdHlsZT0ib3BhY2l0eTowLjE2NjY2NzthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48L3JlY3Q+PC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg2MCA1MCA1MCkiIHN0eWxlPSJ0cmFuc2Zvcm06bWF0cml4KDAuNSwgMC44NjYwMjUsIC0wLjg2NjAyNSwgMC41LCA2OC4zMDEzLCAtMTguMzAxMyk7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PHJlY3QgeD0iNDcuNSIgeT0iMTkiIHJ4PSIyLjUiIHJ5PSIyLjY2IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNCIgZmlsbD0iIzAwMDAwMCIgb3BhY2l0eT0iMC4yNSIgc3R5bGU9Im9wYWNpdHk6MC4yNTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48L3JlY3Q+PC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSg5MCA1MCA1MCkiIHN0eWxlPSJ0cmFuc2Zvcm06bWF0cml4KDYuMTIzMjNlLTE3LCAxLCAtMSwgNi4xMjMyM2UtMTcsIDEwMCwgMCk7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PHJlY3QgeD0iNDcuNSIgeT0iMTkiIHJ4PSIyLjUiIHJ5PSIyLjY2IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNCIgZmlsbD0iIzAwMDAwMCIgb3BhY2l0eT0iMC4zMzMzMzQiIHN0eWxlPSJvcGFjaXR5OjAuMzMzMzM0O2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjwvcmVjdD48L2c+CjxnIHRyYW5zZm9ybT0icm90YXRlKDEyMCA1MCA1MCkiIHN0eWxlPSJ0cmFuc2Zvcm06bWF0cml4KC0wLjUsIDAuODY2MDI1LCAtMC44NjYwMjUsIC0wLjUsIDExOC4zMDEsIDMxLjY5ODcpO2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjxyZWN0IHg9IjQ3LjUiIHk9IjE5IiByeD0iMi41IiByeT0iMi42NiIgd2lkdGg9IjUiIGhlaWdodD0iMTQiIGZpbGw9IiMwMDAwMDAiIG9wYWNpdHk9IjAuNDE2NjY3IiBzdHlsZT0ib3BhY2l0eTowLjQxNjY2NzthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48L3JlY3Q+PC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgxNTAgNTAgNTApIiBzdHlsZT0idHJhbnNmb3JtOm1hdHJpeCgtMC44NjYwMjUsIDAuNSwgLTAuNSwgLTAuODY2MDI1LCAxMTguMzAxLCA2OC4zMDEzKTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIwLjUiIHN0eWxlPSJvcGFjaXR5OjAuNTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48L3JlY3Q+PC9nPgo8ZyB0cmFuc2Zvcm09InJvdGF0ZSgxODAgNTAgNTApIiBzdHlsZT0idHJhbnNmb3JtOm1hdHJpeCgtMSwgMS4yMjQ2NWUtMTYsIC0xLjIyNDY1ZS0xNiwgLTEsIDEwMCwgMTAwKTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIwLjU4MzMzNCIgc3R5bGU9Im9wYWNpdHk6MC41ODMzMzQ7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMjEwIDUwIDUwKSIgc3R5bGU9InRyYW5zZm9ybTptYXRyaXgoLTAuODY2MDI1LCAtMC41LCAwLjUsIC0wLjg2NjAyNSwgNjguMzAxMywgMTE4LjMwMSk7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PHJlY3QgeD0iNDcuNSIgeT0iMTkiIHJ4PSIyLjUiIHJ5PSIyLjY2IiB3aWR0aD0iNSIgaGVpZ2h0PSIxNCIgZmlsbD0iIzAwMDAwMCIgb3BhY2l0eT0iMC42NjY2NjciIHN0eWxlPSJvcGFjaXR5OjAuNjY2NjY3O2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjwvcmVjdD48L2c+CjxnIHRyYW5zZm9ybT0icm90YXRlKDI0MCA1MCA1MCkiIHN0eWxlPSJ0cmFuc2Zvcm06bWF0cml4KC0wLjUsIC0wLjg2NjAyNSwgMC44NjYwMjUsIC0wLjUsIDMxLjY5ODcsIDExOC4zMDEpO2FuaW1hdGlvbi1wbGF5LXN0YXRlOnBhdXNlZCIgPjxyZWN0IHg9IjQ3LjUiIHk9IjE5IiByeD0iMi41IiByeT0iMi42NiIgd2lkdGg9IjUiIGhlaWdodD0iMTQiIGZpbGw9IiMwMDAwMDAiIG9wYWNpdHk9IjAuNzUiIHN0eWxlPSJvcGFjaXR5OjAuNzU7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMjcwIDUwIDUwKSIgc3R5bGU9InRyYW5zZm9ybTptYXRyaXgoLTEuODM2OTdlLTE2LCAtMSwgMSwgLTEuODM2OTdlLTE2LCA3LjEwNTQzZS0xNSwgMTAwKTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIwLjgzMzMzNCIgc3R5bGU9Im9wYWNpdHk6MC44MzMzMzQ7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMzAwIDUwIDUwKSIgc3R5bGU9InRyYW5zZm9ybTptYXRyaXgoMC41LCAtMC44NjYwMjUsIDAuODY2MDI1LCAwLjUsIC0xOC4zMDEzLCA2OC4zMDEzKTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIwLjkxNjY2NyIgc3R5bGU9Im9wYWNpdHk6MC45MTY2Njc7YW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz4KPGcgdHJhbnNmb3JtPSJyb3RhdGUoMzMwIDUwIDUwKSIgc3R5bGU9InRyYW5zZm9ybTptYXRyaXgoMC44NjYwMjUsIC0wLjUsIDAuNSwgMC44NjYwMjUsIC0xOC4zMDEzLCAzMS42OTg3KTthbmltYXRpb24tcGxheS1zdGF0ZTpwYXVzZWQiID48cmVjdCB4PSI0Ny41IiB5PSIxOSIgcng9IjIuNSIgcnk9IjIuNjYiIHdpZHRoPSI1IiBoZWlnaHQ9IjE0IiBmaWxsPSIjMDAwMDAwIiBvcGFjaXR5PSIxIiBzdHlsZT0iYW5pbWF0aW9uLXBsYXktc3RhdGU6cGF1c2VkIiA+PC9yZWN0PjwvZz48IS0tIGdlbmVyYXRlZCBieSBodHRwczovL2xvYWRpbmcuaW8vIC0tPjwvc3ZnPg==\");\n\n//# sourceURL=webpack:///./src/client/imgs/loaders/black-loader.svg?");
 
 /***/ }),
 

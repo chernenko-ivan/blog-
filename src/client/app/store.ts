@@ -2,16 +2,14 @@ import {configureStore} from "@reduxjs/toolkit";
 import createSagaMiddleWare from "redux-saga";
 import {all} from "redux-saga/effects";
 
-import {articlesSaga} from "../features/articles/articles.sagas";
 import {rootReducer} from "./rootReducer";
-import {previewsSaga} from "../features/previews/previews.sagas";
+import {loginSaga} from "../features/login/login.saga";
 
 const sagaMiddleware = createSagaMiddleWare();
 
 function* rootSaga() {
     yield all([
-        articlesSaga(),
-        previewsSaga(),
+        loginSaga()
     ])
 }
 
